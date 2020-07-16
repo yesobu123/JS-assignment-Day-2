@@ -1,0 +1,77 @@
+<script> 
+
+var a = 2; 
+console.log(a); 
+</script>
+
+<script> 
+
+var str = "I love js"; 
+console.log(str); 
+</script>
+
+<script> 
+
+var ch = '2'; 
+console.log(ch); 
+</script>
+
+
+
+
+
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();              // Removes the last element ("Mango") from fruits
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");       //  Adds a new element ("Kiwi") to fruits
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();            // Removes the first element "Banana" from fruits
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");    // Returns 5
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[0] = "Kiwi";        // Changes the first element of fruits to "Kiwi"
+
+
+
+
+
+
+
+
+
+
+
+
+function testNum(a) {
+  let result;
+  if (a > 21) {
+    result = 'can drink';
+  } else {
+    result = 'cannot drink';
+  }
+  return result;
+}
+
+console.log(testNum(22));
